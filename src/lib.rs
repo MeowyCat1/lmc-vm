@@ -1,6 +1,6 @@
 use crate::numbers::LMCInt;
 
-mod interpereter;
+mod interpreter;
 mod numbers;
 
 pub fn add(left : LMCInt, right : LMCInt) -> LMCInt {
