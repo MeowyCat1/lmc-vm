@@ -1,9 +1,9 @@
 use crate::numbers::LMCInt;
 
-mod interpreter;
-mod numbers;
+pub mod interpreter;
+pub mod numbers;
 
-pub fn add(left : LMCInt, right : LMCInt) -> LMCInt {
+fn add(left : LMCInt, right : LMCInt) -> LMCInt {
     left + right
 }
 

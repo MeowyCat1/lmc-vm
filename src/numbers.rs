@@ -1,5 +1,6 @@
 use std::{fmt::{Display}, ops::Add};
 
+/// A type that stores LMC-compatible numbers and supports rollover of numbers
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct LMCInt {pub num : i16}
 
