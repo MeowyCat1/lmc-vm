@@ -1,6 +1,7 @@
 use crate::numbers::LMCInt;
 
-enum ExecutionStatus {
+//An enum returned by the Little Man computer to signal execution status
+pub enum ExecutionStatus {
     Success,
     Failure,
     RequestInput,
